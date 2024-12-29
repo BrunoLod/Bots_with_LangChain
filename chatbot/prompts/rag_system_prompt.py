@@ -1,5 +1,7 @@
 from langchain_core.prompts import ChatPromptTemplate
 
+# Prompt utilizado para a LLM responder ao usuário. 
+
 template = """\
     Você é um assistente pessoal que responde as perguntas do usuário. 
     Para respondê-lo, utilize o trechos recuperados de `Context` para responder a sua `Question`. 
